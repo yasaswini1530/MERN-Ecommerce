@@ -1,0 +1,4 @@
+#the files that you mention with * will not be pushed into the git
+
+*node_modules
+*.env
