@@ -1,6 +1,6 @@
 import axios from 'axios'
 const API = axios.create({
-    baseURL:"hhttps://mern-ecommerce-h5m2.onrender.com"
+    baseURL:"https://mern-ecommerce-h5m2.onrender.com"
 })
 API.interceptors.request.use((req)=>{
     const token=localStorage.getItem("token")
